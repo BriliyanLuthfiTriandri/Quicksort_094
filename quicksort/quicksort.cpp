@@ -8,5 +8,7 @@ int mov_count = 0; // number of data movement
 int n;
 
 
-void input() {}
-	
+void input() {
+	while (true)
+	{
+	}
