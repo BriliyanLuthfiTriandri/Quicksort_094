@@ -11,4 +11,11 @@ int n;
 void input() {
 	while (true)
 	{
+		cout << "Masukan panjang element array: ";
+		cin >> n;
+
+		if (n <= 20)
+			break;
+		else
+			cout << "\nMasukan panjang array adalah 20" << endl;
 	}
